@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ExperimentAndroid</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_page">Page 1</string>
+    <string name="second_page">Page 2</string>
+    <string name="next">Dont do it</string>
+    <string name="previous">I am sorry</string>
+
+    <string name="do_not">Do not press the button!</string>
+    <string name="why">Bruh</string>
+
+
+    <string name="ename">Name</string>
+<!--    <string name="saved">onCreate(@+id/editTextTextPersonName)</string>-->
+</resources>

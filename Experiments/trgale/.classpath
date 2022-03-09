@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="ExperimentAndroid/app/build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="ExperimentSpring/tutorials-springboot_unit1_2_hellopeople/hellopeople/src/main/java"/>
+	<classpathentry kind="lib" path="ExperimentAndroid/app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar"/>
+	<classpathentry kind="lib" path="ExperimentAndroid/app/build/intermediates/merged_java_res/debug/out.jar"/>
+	<classpathentry kind="lib" path="ExperimentAndroid/app/build/intermediates/project_dex_archive/debug/out/5cb8ae6f51eae6a899dd38d80d31fe26a6395df1ae968188389ee5615c887c56_0.jar"/>
+	<classpathentry kind="lib" path="ExperimentAndroid/app/build/intermediates/project_dex_archive/debug/out/5cb8ae6f51eae6a899dd38d80d31fe26a6395df1ae968188389ee5615c887c56_1.jar"/>
+	<classpathentry kind="lib" path="ExperimentAndroid/gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="ExperimentAndroid/app/build/intermediates/javac/debug/classes"/>
+</classpath>

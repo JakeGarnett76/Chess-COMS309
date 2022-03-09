@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#66ccff">
+
+    <Button
+        android:id="@+id/btnHTPBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Back to Home"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/howtoPawn"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="25dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toStartOf="@+id/howtoRook"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:foreground="@drawable/white_pawn"
+        android:background="@color/black"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/howtoBishop"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="25dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/howtoRook"
+        app:layout_constraintTop_toTopOf="parent"
+        android:foreground="@drawable/white_bishop"
+        android:background="@color/black"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/howtoKing"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/howtoKnight"
+        app:layout_constraintTop_toBottomOf="@+id/howtoBishop"
+        android:foreground="@drawable/black_king"
+        android:background="@color/white"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/howtoKnight"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="25dp"
+        android:background="@color/black"
+        android:foreground="@drawable/white_knight"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/howtoRook"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/howtoQueen"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="25dp"
+        app:layout_constraintEnd_toStartOf="@+id/howtoKnight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/howtoPawn"
+        android:foreground="@drawable/black_queen"
+        android:background="@color/white"
+        android:onClick="onClick"/>
+
+    <ImageView
+        android:id="@+id/howtoRook"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_margin="25dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/white"
+        android:foreground="@drawable/black_rook"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:onClick="onClick"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

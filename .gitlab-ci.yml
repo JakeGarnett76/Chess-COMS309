@@ -1,0 +1,89 @@
+#.gitlab-ci.yml file test
+stages:
+        - mavenbuild
+        - maventest
+        - autodeploy
+        - androidbuild
+        - androidtest
+
+maven-build:
+        only:
+          refs:
+                - master 
+          changes:
+                - Backend/springboot
+
+        stage: mavenbuild
+        tags:
+                - springboot_tag
+        script:
+                - cd Backend/springboot
+                - mvn package -B
+maven-test:
+         only:
+           refs:
+                 - master
+           changes:
+                 - Backend/springboot
+
+         stage: maventest
+         tags:
+                 - springboot_tag
+         script: 
+                 - cd Backend/springboot
+                 - mvn test
+         artifacts:
+             paths:
+                 - Backend/springboot/target/*.jar
+auto-deploy:
+        stage: autodeploy
+        tags:
+                - springboot_tag
+        script:
+                - cd Backend/springboot
+                - mvn package
+                - sudo mv target/*.jar /target/web-demo.jar
+                - sudo systemctl stop system-web-demo
+                - sudo systemctl start system-web-demo
+
+android-build:
+        only:
+          refs:
+                - master 
+          changes:
+                - Frontend  
+
+        image: javiersantos/android-ci:latest
+        stage: androidbuild
+        tags:
+                - android-tag
+        before_script:
+                - export GRADLE_USER_HOME='pwd'/.gradle
+                - chmod +x ./Frontend/reglogin/gradlew
+        script:
+                - cd Frontend/reglogin
+                - ./gradlew assemble
+        artifacts:
+           paths:
+                   - Frontend/reglogin/app/build/outputs/
+android-test:
+        only:
+          refs:
+                - master    
+          changes:
+                - Frontend  
+
+        image: javiersantos/android-ci:latest
+        stage: androidtest
+        before_script:
+                - export GRADLE_USER_HOME='pwd'/.gradle
+                - chmod +x ./Frontend/reglogin/gradlew
+        tags:
+                - android-tag
+        script:
+                - cd Frontend/reglogin
+                - ./gradlew test
+
+
+
+              

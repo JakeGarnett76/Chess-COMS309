@@ -1,0 +1,2 @@
+rootProject.name='Advanced Chess'
+include ':app'

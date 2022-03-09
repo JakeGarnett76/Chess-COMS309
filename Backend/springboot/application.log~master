@@ -1,0 +1,402 @@
+2021-03-07 13:56:18.680  INFO 44464 --- [main] advancedchess.Main                       : Starting Main v1.0.0 using Java 1.8.0_231 on DESKTOP-JPRL1QC with PID 44464 (C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot\target\advancedchess-1.0.0.jar started by carve in C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot)
+2021-03-07 13:56:18.685  INFO 44464 --- [main] advancedchess.Main                       : No active profile set, falling back to default profiles: default
+2021-03-07 13:56:20.675  INFO 44464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-07 13:56:20.828  INFO 44464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interfaces.
+2021-03-07 13:56:22.544  INFO 44464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-07 13:56:22.564  INFO 44464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-07 13:56:22.565  INFO 44464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-07 13:56:22.682  INFO 44464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-07 13:56:22.683  INFO 44464 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3860 ms
+2021-03-07 13:56:23.253  INFO 44464 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-07 13:56:23.542  INFO 44464 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-07 13:56:24.023  INFO 44464 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-07 13:56:24.311  INFO 44464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-07 13:56:29.743  INFO 44464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-07 13:56:29.884  INFO 44464 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-07 13:56:33.112  INFO 44464 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-07 13:56:33.173  INFO 44464 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-07 13:56:34.145  WARN 44464 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-07 13:56:34.456  INFO 44464 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-07 13:56:34.941  INFO 44464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-07 13:56:34.958  INFO 44464 --- [main] advancedchess.Main                       : Started Main in 17.397 seconds (JVM running for 18.247)
+2021-03-07 13:56:44.379  INFO 44464 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-07 13:56:44.380  INFO 44464 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-07 13:56:44.382  INFO 44464 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-07 14:06:02.038  INFO 66900 --- [main] advancedchess.Main                       : Starting Main v1.0.0 using Java 1.8.0_231 on DESKTOP-JPRL1QC with PID 66900 (C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot\target\advancedchess-1.0.0.jar started by carve in C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot)
+2021-03-07 14:06:02.042  INFO 66900 --- [main] advancedchess.Main                       : No active profile set, falling back to default profiles: default
+2021-03-07 14:06:04.028  INFO 66900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-07 14:06:04.184  INFO 66900 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 129 ms. Found 1 JPA repository interfaces.
+2021-03-07 14:06:05.969  INFO 66900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-07 14:06:06.004  INFO 66900 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-07 14:06:06.007  INFO 66900 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-07 14:06:06.148  INFO 66900 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-07 14:06:06.148  INFO 66900 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3959 ms
+2021-03-07 14:06:06.813  INFO 66900 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-07 14:06:07.171  INFO 66900 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-07 14:06:07.706  INFO 66900 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-07 14:06:08.019  INFO 66900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-07 14:06:12.272  INFO 66900 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-07 14:06:12.413  INFO 66900 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-07 14:06:16.150  INFO 66900 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-07 14:06:16.196  INFO 66900 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-07 14:06:17.123  WARN 66900 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-07 14:06:17.421  INFO 66900 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-07 14:06:17.912  INFO 66900 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-07 14:06:17.927  INFO 66900 --- [main] advancedchess.Main                       : Started Main in 16.824 seconds (JVM running for 17.687)
+2021-03-07 14:06:26.083  INFO 66900 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-07 14:06:26.084  INFO 66900 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-07 14:06:26.086  INFO 66900 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-07 14:07:55.190  WARN 66900 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: java.lang.String advancedchess.User.UserController.createUser(advancedchess.User.User)]
+2021-03-07 14:10:33.286  INFO 32708 --- [main] advancedchess.Main                       : Starting Main v1.0.0 using Java 1.8.0_231 on DESKTOP-JPRL1QC with PID 32708 (C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot\target\advancedchess-1.0.0.jar started by carve in C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot)
+2021-03-07 14:10:33.292  INFO 32708 --- [main] advancedchess.Main                       : No active profile set, falling back to default profiles: default
+2021-03-07 14:10:35.239  INFO 32708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-07 14:10:35.389  INFO 32708 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 126 ms. Found 1 JPA repository interfaces.
+2021-03-07 14:10:37.043  INFO 32708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-07 14:10:37.068  INFO 32708 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-07 14:10:37.069  INFO 32708 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-07 14:10:37.206  INFO 32708 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-07 14:10:37.207  INFO 32708 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3775 ms
+2021-03-07 14:10:37.752  INFO 32708 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-07 14:10:38.014  INFO 32708 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-07 14:10:38.458  INFO 32708 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-07 14:10:38.723  INFO 32708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-07 14:10:40.464  INFO 32708 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-07 14:10:40.572  INFO 32708 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-07 14:10:42.863  INFO 32708 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-07 14:10:42.887  INFO 32708 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-07 14:10:43.833  WARN 32708 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-07 14:10:44.207  INFO 32708 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-07 14:10:44.674  INFO 32708 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-07 14:10:44.692  INFO 32708 --- [main] advancedchess.Main                       : Started Main in 12.324 seconds (JVM running for 13.185)
+2021-03-07 14:10:56.235  INFO 32708 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-07 14:10:56.236  INFO 32708 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-07 14:10:56.237  INFO 32708 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-07 14:13:17.215  INFO 34676 --- [main] advancedchess.Main                       : Starting Main v1.0.0 using Java 1.8.0_231 on DESKTOP-JPRL1QC with PID 34676 (C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot\target\advancedchess-1.0.0.jar started by carve in C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot)
+2021-03-07 14:13:17.221  INFO 34676 --- [main] advancedchess.Main                       : No active profile set, falling back to default profiles: default
+2021-03-07 14:13:19.061  INFO 34676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-07 14:13:19.208  INFO 34676 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 123 ms. Found 1 JPA repository interfaces.
+2021-03-07 14:13:20.877  INFO 34676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-07 14:13:20.902  INFO 34676 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-07 14:13:20.903  INFO 34676 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-07 14:13:21.025  INFO 34676 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-07 14:13:21.025  INFO 34676 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3658 ms
+2021-03-07 14:13:21.533  INFO 34676 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-07 14:13:21.804  INFO 34676 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-07 14:13:22.287  INFO 34676 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-07 14:13:22.571  INFO 34676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-07 14:13:27.038  INFO 34676 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-07 14:13:27.159  INFO 34676 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-07 14:13:29.814  INFO 34676 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-07 14:13:29.855  INFO 34676 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-07 14:13:30.741  WARN 34676 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-07 14:13:31.046  INFO 34676 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-07 14:13:31.557  INFO 34676 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-07 14:13:31.571  INFO 34676 --- [main] advancedchess.Main                       : Started Main in 15.253 seconds (JVM running for 16.143)
+2021-03-07 14:13:44.670  INFO 34676 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-07 14:13:44.670  INFO 34676 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-07 14:13:44.673  INFO 34676 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-07 15:08:13.034  INFO 63892 --- [main] advancedchess.Main                       : Starting Main v1.0.0 using Java 1.8.0_231 on DESKTOP-JPRL1QC with PID 63892 (C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot\target\advancedchess-1.0.0.jar started by carve in C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot)
+2021-03-07 15:08:13.042  INFO 63892 --- [main] advancedchess.Main                       : No active profile set, falling back to default profiles: default
+2021-03-07 15:08:15.164  INFO 63892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-07 15:08:15.335  INFO 63892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141 ms. Found 1 JPA repository interfaces.
+2021-03-07 15:08:17.122  INFO 63892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-07 15:08:17.146  INFO 63892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-07 15:08:17.147  INFO 63892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-07 15:08:17.286  INFO 63892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-07 15:08:17.287  INFO 63892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4107 ms
+2021-03-07 15:08:17.909  INFO 63892 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-07 15:08:18.182  INFO 63892 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-07 15:08:18.636  INFO 63892 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-07 15:08:18.947  INFO 63892 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-07 15:08:22.281  INFO 63892 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-07 15:08:22.388  INFO 63892 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-07 15:08:24.442  INFO 63892 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-07 15:08:24.483  INFO 63892 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-07 15:08:25.420  WARN 63892 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-07 15:08:25.744  INFO 63892 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-07 15:08:26.253  INFO 63892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-07 15:08:26.269  INFO 63892 --- [main] advancedchess.Main                       : Started Main in 14.277 seconds (JVM running for 15.217)
+2021-03-07 15:08:39.149  INFO 63892 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-07 15:08:39.150  INFO 63892 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-07 15:08:39.151  INFO 63892 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-07 16:18:38.759  INFO 66984 --- [main] advancedchess.Main                       : Starting Main v1.0.0 using Java 1.8.0_231 on DESKTOP-JPRL1QC with PID 66984 (C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot\target\advancedchess-1.0.0.jar started by carve in C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot)
+2021-03-07 16:18:38.764  INFO 66984 --- [main] advancedchess.Main                       : No active profile set, falling back to default profiles: default
+2021-03-07 16:18:40.626  INFO 66984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-07 16:18:40.772  INFO 66984 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 1 JPA repository interfaces.
+2021-03-07 16:18:42.486  INFO 66984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-07 16:18:42.510  INFO 66984 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-07 16:18:42.511  INFO 66984 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-07 16:18:42.638  INFO 66984 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-07 16:18:42.639  INFO 66984 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3743 ms
+2021-03-07 16:18:43.194  INFO 66984 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-07 16:18:43.441  INFO 66984 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-07 16:18:43.890  INFO 66984 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-07 16:18:44.153  INFO 66984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-07 16:18:48.156  INFO 66984 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-07 16:18:48.253  INFO 66984 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-07 16:18:50.797  INFO 66984 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-07 16:18:50.847  INFO 66984 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-07 16:18:51.871  WARN 66984 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-07 16:18:52.235  INFO 66984 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-07 16:18:52.768  INFO 66984 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-07 16:18:52.797  INFO 66984 --- [main] advancedchess.Main                       : Started Main in 15.089 seconds (JVM running for 16.078)
+2021-03-07 16:19:06.095  INFO 66984 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-07 16:19:06.096  INFO 66984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-07 16:19:06.097  INFO 66984 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-07 16:19:30.283  WARN 66984 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: java.lang.String advancedchess.User.UserController.createUser(advancedchess.User.User)]
+2021-03-07 16:22:44.644  WARN 66984 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: java.lang.String advancedchess.User.UserController.createUser(advancedchess.User.User)]
+2021-03-07 16:23:23.141  WARN 66984 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: java.lang.String advancedchess.User.UserController.createUser(advancedchess.User.User)]
+2021-03-07 16:23:55.532  WARN 66984 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: java.lang.String advancedchess.User.UserController.createUser(advancedchess.User.User)]
+2021-03-07 16:27:31.696  WARN 66984 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: java.lang.String advancedchess.User.UserController.createUser(advancedchess.User.User)]
+2021-03-07 16:29:01.701  WARN 66984 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: java.lang.String advancedchess.User.UserController.createUser(advancedchess.User.User)]
+2021-03-07 16:43:20.902  INFO 27416 --- [main] advancedchess.Main                       : Starting Main v1.0.0 using Java 1.8.0_231 on DESKTOP-JPRL1QC with PID 27416 (C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot\target\advancedchess-1.0.0.jar started by carve in C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot)
+2021-03-07 16:43:20.907  INFO 27416 --- [main] advancedchess.Main                       : No active profile set, falling back to default profiles: default
+2021-03-07 16:43:23.137  INFO 27416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-07 16:43:23.307  INFO 27416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 143 ms. Found 1 JPA repository interfaces.
+2021-03-07 16:43:25.042  INFO 27416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-07 16:43:25.064  INFO 27416 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-07 16:43:25.065  INFO 27416 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-07 16:43:25.203  INFO 27416 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-07 16:43:25.204  INFO 27416 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4134 ms
+2021-03-07 16:43:25.747  INFO 27416 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-07 16:43:26.080  INFO 27416 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-07 16:43:26.531  INFO 27416 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-07 16:43:26.820  INFO 27416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-07 16:43:32.334  INFO 27416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-07 16:43:32.449  INFO 27416 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-07 16:43:35.030  INFO 27416 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-07 16:43:35.046  INFO 27416 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-07 16:43:35.981  WARN 27416 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-07 16:43:36.309  INFO 27416 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-07 16:43:36.948  INFO 27416 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-07 16:43:36.963  INFO 27416 --- [main] advancedchess.Main                       : Started Main in 17.01 seconds (JVM running for 17.92)
+2021-03-07 16:44:04.306  INFO 27416 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-07 16:44:04.307  INFO 27416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-07 16:44:04.309  INFO 27416 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-07 16:57:14.623  INFO 28196 --- [main] advancedchess.Main                       : Starting Main v1.0.0 using Java 1.8.0_231 on DESKTOP-JPRL1QC with PID 28196 (C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot\target\advancedchess-1.0.0.jar started by carve in C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot)
+2021-03-07 16:57:14.627  INFO 28196 --- [main] advancedchess.Main                       : No active profile set, falling back to default profiles: default
+2021-03-07 16:57:16.450  INFO 28196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-07 16:57:16.605  INFO 28196 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 128 ms. Found 1 JPA repository interfaces.
+2021-03-07 16:57:18.267  INFO 28196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-07 16:57:18.299  INFO 28196 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-07 16:57:18.301  INFO 28196 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-07 16:57:18.453  INFO 28196 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-07 16:57:18.454  INFO 28196 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3690 ms
+2021-03-07 16:57:18.975  INFO 28196 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-07 16:57:19.229  INFO 28196 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-07 16:57:19.681  INFO 28196 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-07 16:57:19.952  INFO 28196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-07 16:57:25.163  INFO 28196 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-07 16:57:25.266  INFO 28196 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-07 16:57:28.232  INFO 28196 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-07 16:57:28.281  INFO 28196 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-07 16:57:29.179  WARN 28196 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-07 16:57:29.485  INFO 28196 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-07 16:57:29.949  INFO 28196 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-07 16:57:29.962  INFO 28196 --- [main] advancedchess.Main                       : Started Main in 16.312 seconds (JVM running for 17.151)
+2021-03-07 16:57:45.911  INFO 28196 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-07 16:57:45.912  INFO 28196 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-07 16:57:45.914  INFO 28196 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-07 16:58:03.296  WARN 28196 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: java.lang.String advancedchess.User.UserController.createUser(advancedchess.User.User)]
+2021-03-07 16:58:18.671  INFO 37700 --- [main] advancedchess.Main                       : Starting Main v1.0.0 using Java 1.8.0_231 on DESKTOP-JPRL1QC with PID 37700 (C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot\target\advancedchess-1.0.0.jar started by carve in C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot)
+2021-03-07 16:58:18.677  INFO 37700 --- [main] advancedchess.Main                       : No active profile set, falling back to default profiles: default
+2021-03-07 16:58:20.518  INFO 37700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-07 16:58:20.663  INFO 37700 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 1 JPA repository interfaces.
+2021-03-07 16:58:22.299  INFO 37700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-07 16:58:22.336  INFO 37700 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-07 16:58:22.338  INFO 37700 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-07 16:58:22.513  INFO 37700 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-07 16:58:22.514  INFO 37700 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3700 ms
+2021-03-07 16:58:23.306  INFO 37700 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-07 16:58:23.771  INFO 37700 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-07 16:58:24.220  INFO 37700 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-07 16:58:24.489  INFO 37700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-07 16:58:32.233  INFO 37700 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-07 16:58:32.373  INFO 37700 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-07 16:58:35.514  INFO 37700 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-07 16:58:35.555  INFO 37700 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-07 16:58:36.422  WARN 37700 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-07 16:58:36.736  INFO 37700 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-07 16:58:37.263  INFO 37700 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-07 16:58:37.280  INFO 37700 --- [main] advancedchess.Main                       : Started Main in 19.566 seconds (JVM running for 20.426)
+2021-03-07 16:59:33.181  INFO 48300 --- [main] advancedchess.Main                       : Starting Main v1.0.0 using Java 1.8.0_231 on DESKTOP-JPRL1QC with PID 48300 (C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot\target\advancedchess-1.0.0.jar started by carve in C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot)
+2021-03-07 16:59:33.187  INFO 48300 --- [main] advancedchess.Main                       : No active profile set, falling back to default profiles: default
+2021-03-07 16:59:35.044  INFO 48300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-07 16:59:35.203  INFO 48300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 130 ms. Found 1 JPA repository interfaces.
+2021-03-07 16:59:36.974  INFO 48300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-07 16:59:36.998  INFO 48300 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-07 16:59:36.999  INFO 48300 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-07 16:59:37.133  INFO 48300 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-07 16:59:37.134  INFO 48300 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3814 ms
+2021-03-07 16:59:37.653  INFO 48300 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-07 16:59:37.945  INFO 48300 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-07 16:59:38.430  INFO 48300 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-07 16:59:38.703  INFO 48300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-07 16:59:43.106  INFO 48300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-07 16:59:43.233  INFO 48300 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-07 16:59:45.940  INFO 48300 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-07 16:59:45.972  INFO 48300 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-07 16:59:46.790  WARN 48300 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-07 16:59:47.094  INFO 48300 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-07 16:59:47.576  INFO 48300 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-07 16:59:47.594  INFO 48300 --- [main] advancedchess.Main                       : Started Main in 15.531 seconds (JVM running for 16.318)
+2021-03-07 16:59:52.776  INFO 48300 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-07 16:59:52.778  INFO 48300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-07 16:59:52.779  INFO 48300 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-07 16:59:52.845  WARN 48300 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: java.lang.String advancedchess.User.UserController.createUser(advancedchess.User.User)]
+2021-03-07 17:33:49.762  INFO 51464 --- [main] advancedchess.Main                       : Starting Main v1.0.0 using Java 1.8.0_231 on DESKTOP-JPRL1QC with PID 51464 (C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot\target\advancedchess-1.0.0.jar started by carve in C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot)
+2021-03-07 17:33:49.769  INFO 51464 --- [main] advancedchess.Main                       : No active profile set, falling back to default profiles: default
+2021-03-07 17:33:51.637  INFO 51464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-07 17:33:51.787  INFO 51464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 124 ms. Found 1 JPA repository interfaces.
+2021-03-07 17:33:53.528  INFO 51464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-07 17:33:53.554  INFO 51464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-07 17:33:53.555  INFO 51464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-07 17:33:53.683  INFO 51464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-07 17:33:53.684  INFO 51464 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3780 ms
+2021-03-07 17:33:54.254  INFO 51464 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-07 17:33:54.620  INFO 51464 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-07 17:33:55.129  INFO 51464 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-07 17:33:55.414  INFO 51464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-07 17:34:03.533  INFO 51464 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-07 17:34:03.631  INFO 51464 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-07 17:34:07.079  INFO 51464 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-07 17:34:07.111  INFO 51464 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-07 17:34:07.987  WARN 51464 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-07 17:34:08.299  INFO 51464 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-07 17:34:08.852  INFO 51464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-07 17:34:08.890  INFO 51464 --- [main] advancedchess.Main                       : Started Main in 20.111 seconds (JVM running for 20.963)
+2021-03-07 17:34:21.154  INFO 51464 --- [http-nio-8080-exec-10] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-07 17:34:21.155  INFO 51464 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-07 17:34:21.159  INFO 51464 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-03-07 17:38:03.353  WARN 51464 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------859239665359568488085013;charset=UTF-8' not supported]
+2021-03-07 17:38:22.638  WARN 51464 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------090295459261730350753320;charset=UTF-8' not supported]
+2021-03-07 17:39:29.166  WARN 51464 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'multipart/form-data;boundary=--------------------------397250289117680291849510;charset=UTF-8' not supported]
+2021-03-07 17:40:25.097  WARN 51464 --- [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: java.lang.String advancedchess.User.UserController.createUser(advancedchess.User.User)]
+2021-03-07 17:40:52.002  WARN 51464 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: java.lang.String advancedchess.User.UserController.createUser(advancedchess.User.User)]
+2021-03-08 17:02:44.393  INFO 61368 --- [main] advancedchess.Main                       : Starting Main v1.0.0 using Java 1.8.0_231 on DESKTOP-JPRL1QC with PID 61368 (C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot\target\advancedchess-1.0.0.jar started by carve in C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot)
+2021-03-08 17:02:44.398  INFO 61368 --- [main] advancedchess.Main                       : No active profile set, falling back to default profiles: default
+2021-03-08 17:02:46.619  INFO 61368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 17:02:46.780  INFO 61368 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 138 ms. Found 1 JPA repository interfaces.
+2021-03-08 17:02:48.685  INFO 61368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-08 17:02:48.705  INFO 61368 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-08 17:02:48.706  INFO 61368 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-08 17:02:48.838  INFO 61368 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-08 17:02:48.839  INFO 61368 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4283 ms
+2021-03-08 17:02:49.546  INFO 61368 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 17:02:49.816  INFO 61368 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-08 17:02:50.362  INFO 61368 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-08 17:02:50.774  INFO 61368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-08 17:02:55.097  INFO 61368 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-08 17:02:55.297  INFO 61368 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-08 17:02:58.348  INFO 61368 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 17:02:58.408  INFO 61368 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 17:02:59.802  WARN 61368 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 17:03:00.352  INFO 61368 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 17:03:01.258  INFO 61368 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-08 17:03:01.279  INFO 61368 --- [main] advancedchess.Main                       : Started Main in 18.05 seconds (JVM running for 19.187)
+2021-03-08 17:03:28.828  INFO 61368 --- [http-nio-8080-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 17:03:28.830  INFO 61368 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-08 17:03:28.831  INFO 61368 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-08 17:58:59.952  INFO 51804 --- [main] advancedchess.Main                       : Starting Main v1.0.0 using Java 1.8.0_231 on DESKTOP-JPRL1QC with PID 51804 (C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot\target\advancedchess-1.0.0.jar started by carve in C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot)
+2021-03-08 17:58:59.958  INFO 51804 --- [main] advancedchess.Main                       : No active profile set, falling back to default profiles: default
+2021-03-08 17:59:02.110  INFO 51804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 17:59:02.289  INFO 51804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 147 ms. Found 1 JPA repository interfaces.
+2021-03-08 17:59:04.153  INFO 51804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-08 17:59:04.181  INFO 51804 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-08 17:59:04.183  INFO 51804 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-08 17:59:04.326  INFO 51804 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-08 17:59:04.327  INFO 51804 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4195 ms
+2021-03-08 17:59:05.005  INFO 51804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 17:59:05.359  INFO 51804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-08 17:59:05.808  INFO 51804 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-08 17:59:06.123  INFO 51804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-08 17:59:10.836  INFO 51804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-08 17:59:10.957  INFO 51804 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-08 17:59:14.164  INFO 51804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 17:59:14.214  INFO 51804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 17:59:15.246  WARN 51804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 17:59:15.592  INFO 51804 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 17:59:16.136  INFO 51804 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-08 17:59:16.158  INFO 51804 --- [main] advancedchess.Main                       : Started Main in 17.393 seconds (JVM running for 18.344)
+2021-03-08 17:59:28.212  INFO 51804 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 17:59:28.214  INFO 51804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-08 17:59:28.216  INFO 51804 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-08 18:00:58.010  INFO 52256 --- [main] advancedchess.Main                       : Starting Main v1.0.0 using Java 1.8.0_231 on DESKTOP-JPRL1QC with PID 52256 (C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot\target\advancedchess-1.0.0.jar started by carve in C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot)
+2021-03-08 18:00:58.015  INFO 52256 --- [main] advancedchess.Main                       : No active profile set, falling back to default profiles: default
+2021-03-08 18:00:59.991  INFO 52256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 18:01:00.171  INFO 52256 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 141 ms. Found 1 JPA repository interfaces.
+2021-03-08 18:01:01.888  INFO 52256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-08 18:01:01.908  INFO 52256 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-08 18:01:01.909  INFO 52256 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-08 18:01:02.038  INFO 52256 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-08 18:01:02.038  INFO 52256 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3881 ms
+2021-03-08 18:01:02.622  INFO 52256 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 18:01:02.935  INFO 52256 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-08 18:01:03.435  INFO 52256 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-08 18:01:03.734  INFO 52256 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-08 18:01:06.326  INFO 52256 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-08 18:01:06.445  INFO 52256 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-08 18:01:09.223  INFO 52256 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 18:01:09.263  INFO 52256 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 18:01:10.233  WARN 52256 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 18:01:10.573  INFO 52256 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 18:01:11.088  INFO 52256 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-08 18:01:11.107  INFO 52256 --- [main] advancedchess.Main                       : Started Main in 14.127 seconds (JVM running for 14.974)
+2021-03-08 18:01:16.691  INFO 52256 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 18:01:16.692  INFO 52256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-08 18:01:16.694  INFO 52256 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-03-08 18:07:46.146  INFO 66840 --- [main] advancedchess.Main                       : Starting Main v1.0.0 using Java 1.8.0_231 on DESKTOP-JPRL1QC with PID 66840 (C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot\target\advancedchess-1.0.0.jar started by carve in C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot)
+2021-03-08 18:07:46.151  INFO 66840 --- [main] advancedchess.Main                       : No active profile set, falling back to default profiles: default
+2021-03-08 18:07:48.119  INFO 66840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 18:07:48.280  INFO 66840 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131 ms. Found 1 JPA repository interfaces.
+2021-03-08 18:07:50.070  INFO 66840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-08 18:07:50.099  INFO 66840 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-08 18:07:50.100  INFO 66840 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-08 18:07:50.234  INFO 66840 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-08 18:07:50.235  INFO 66840 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3951 ms
+2021-03-08 18:07:50.782  INFO 66840 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 18:07:51.122  INFO 66840 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-08 18:07:51.614  INFO 66840 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-08 18:07:51.918  INFO 66840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-08 18:07:55.334  INFO 66840 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-08 18:07:55.459  INFO 66840 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-08 18:07:57.668  INFO 66840 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 18:07:57.715  INFO 66840 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 18:07:58.697  WARN 66840 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 18:07:59.007  INFO 66840 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 18:07:59.649  INFO 66840 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-08 18:07:59.670  INFO 66840 --- [main] advancedchess.Main                       : Started Main in 14.548 seconds (JVM running for 15.443)
+2021-03-08 18:08:06.252  INFO 66840 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 18:08:06.253  INFO 66840 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-08 18:08:06.255  INFO 66840 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-03-08 18:08:30.510  WARN 66840 --- [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "CarverBartz2.0"]
+2021-03-08 18:08:41.752  WARN 66840 --- [http-nio-8080-exec-5] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: ""CarverBartz2.0""]
+2021-03-08 18:11:41.607  WARN 66840 --- [http-nio-8080-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "CarverBartz"]
+2021-03-08 18:11:49.047  WARN 66840 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: ""CarverBartz""]
+2021-03-08 18:11:55.220  WARN 66840 --- [http-nio-8080-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: ""CarverBartz""]
+2021-03-08 18:13:29.194  WARN 66840 --- [http-nio-8080-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: ""John""]
+2021-03-08 18:13:37.063  WARN 66840 --- [http-nio-8080-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'int'; nested exception is java.lang.NumberFormatException: For input string: "John"]
+2021-03-08 18:14:56.364  INFO 24508 --- [main] advancedchess.Main                       : Starting Main v1.0.0 using Java 1.8.0_231 on DESKTOP-JPRL1QC with PID 24508 (C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot\target\advancedchess-1.0.0.jar started by carve in C:\Users\carve\Desktop\cs309\tz_3\Backend\springboot)
+2021-03-08 18:14:56.368  INFO 24508 --- [main] advancedchess.Main                       : No active profile set, falling back to default profiles: default
+2021-03-08 18:14:58.340  INFO 24508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 18:14:58.492  INFO 24508 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 127 ms. Found 1 JPA repository interfaces.
+2021-03-08 18:15:00.302  INFO 24508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-03-08 18:15:00.323  INFO 24508 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-03-08 18:15:00.324  INFO 24508 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-03-08 18:15:00.448  INFO 24508 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-03-08 18:15:00.449  INFO 24508 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3919 ms
+2021-03-08 18:15:00.997  INFO 24508 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 18:15:01.342  INFO 24508 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.27.Final
+2021-03-08 18:15:01.847  INFO 24508 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-08 18:15:02.136  INFO 24508 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-03-08 18:15:06.464  INFO 24508 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-03-08 18:15:06.589  INFO 24508 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2021-03-08 18:15:09.575  INFO 24508 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 18:15:09.621  INFO 24508 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 18:15:10.569  WARN 24508 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 18:15:10.859  INFO 24508 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 18:15:11.398  INFO 24508 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-03-08 18:15:11.416  INFO 24508 --- [main] advancedchess.Main                       : Started Main in 16.067 seconds (JVM running for 16.892)
+2021-03-08 18:15:32.349  INFO 24508 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 18:15:32.350  INFO 24508 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-03-08 18:15:32.352  INFO 24508 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms

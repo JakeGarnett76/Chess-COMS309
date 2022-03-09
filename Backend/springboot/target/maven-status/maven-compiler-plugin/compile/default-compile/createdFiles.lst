@@ -1,0 +1,15 @@
+advancedchess\Leaderboard\LeaderBoardController.class
+advancedchess\Leaderboard\LeaderBoardRepository.class
+advancedchess\User\User.class
+advancedchess\WebSocket\WebSocketServer.class
+advancedchess\GameLogs\GameLogController.class
+advancedchess\WebSocket\WebSocketConfig.class
+advancedchess\GameState\GameStateRepository.class
+advancedchess\GameLogs\GameLogRepository.class
+advancedchess\GameState\GameStateController.class
+advancedchess\Leaderboard\LeaderBoard.class
+advancedchess\GameLogs\GameLog.class
+advancedchess\GameState\GameState.class
+advancedchess\User\UserRepository.class
+advancedchess\User\UserController.class
+advancedchess\Main.class

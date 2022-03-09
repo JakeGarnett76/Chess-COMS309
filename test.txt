@@ -1,0 +1,6 @@
+test for pipeline
+test for pipeline 2
+test for pipeline 3
+test for pipeline 4
+fixing jar
+Setting jar
